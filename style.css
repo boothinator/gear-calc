@@ -1,0 +1,9 @@
+
+.controls-layout {
+  display: flex;
+  
+  > div {
+    display:flex;
+    flex-direction: column;
+  }
+}
