@@ -1,9 +1,15 @@
 
 .controls-layout {
   display: flex;
-  
+
   > div {
     display:flex;
     flex-direction: column;
   }
+}
+
+.chart {
+  .scale::after {
+      content: 'hello:' calc(1);
+    }
 }
